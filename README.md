@@ -1,6 +1,6 @@
 # Harnessing Machine Learning and Advanced Data Insights for Lithium Recovery from Oil and Gas Brines
 
-Code Repository for the paper "arnessing Machine Learning and Advanced Data Insights for Lithium Recovery from Oil and Gas Brines"
+Code Repository for the paper "Harnessing Machine Learning and Advanced Data Insights for Lithium Recovery from Oil and Gas Brines"
 
 ## Abstract
 This study tackles the urgent need for efficient lithium recovery from briny
@@ -25,16 +25,18 @@ Clone the project
 ```bash
   git clone https://github.com/neuralix-ai/HarnessingMachineLearningandAdvancedDataInsightsforLithiumRecoveryfromOilandGasBrines
 ```
-And run `Water- with log.ipynb `
+And run `Water.ipynb `
 Python>=3.10
 
 
 ## Project Structure
 
     .
-    ├── cwd                     <- Directory for storing image outputs from the notebook
-    ├── results-withlog         <- Directory with 5 fold CV metrics and .pkl file for all classifiers
     ├── LICENSE                 <- Project license file
     ├── README.md               <- Top-level README for developers/researchers using this project
-    ├── Water- with log.ipynb   <- the main notebook with all working codes to reproduce results presented in the paper
-    └── data.csv                <- CSV cleaned USGS PWGD V3 dataset
+    ├── Water.ipynb             <- the main notebook with all working codes to reproduce results presented in the paper
+    ├── cwd                     <- Directory for storing class wise distribution plots
+    ├── data.csv                <- CSV cleaned USGS PWGD V3 dataset
+    ├── dviz                    <- Directory for storing XAI plots
+    ├── metrics                 <- Directory for storing all model metrics
+    └── models                  <- Directory for storing all models as pkl files

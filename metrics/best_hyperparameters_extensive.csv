@@ -1,0 +1,6 @@
+,n_estimators,max_depth,min_samples_split,min_samples_leaf,max_features,criterion,learning_rate,subsample,colsample_bytree,gamma,reg_alpha,reg_lambda,num_leaves,min_child_samples,feature_fraction,bagging_fraction,bagging_freq
+RandomForest,151,40,4,1,sqrt,entropy,,,,,,,,,,,
+XGBoost,806.0,10.0,,,,,0.03569987714963601,0.8769599364294248,0.8310507362765712,7.824402514799021e-07,0.0001433682944424046,0.003995566032529892,,,,,
+LightGBM,832.0,16.0,,,,,0.020362315754113767,,,,,,82.0,14.0,0.8875676157796575,0.7847928856876285,6.0
+ExtraTrees,602,32,3,1,sqrt,,,,,,,,,,,,
+GradientBoosting,725.0,7.0,11.0,9.0,,,0.0609950014525059,0.9350753724762706,,,,,,,,,
