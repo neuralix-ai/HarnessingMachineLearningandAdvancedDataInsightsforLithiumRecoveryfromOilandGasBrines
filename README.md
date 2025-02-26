@@ -25,7 +25,7 @@ Clone the project
 ```bash
   git clone https://github.com/neuralix-ai/HarnessingMachineLearningandAdvancedDataInsightsforLithiumRecoveryfromOilandGasBrines
 ```
-And run `Water.ipynb `
+And run `Water-.ipynb `
 Python>=3.10
 
 
