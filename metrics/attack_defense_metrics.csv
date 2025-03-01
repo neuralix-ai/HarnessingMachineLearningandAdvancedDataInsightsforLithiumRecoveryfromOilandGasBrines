@@ -1,0 +1,7 @@
+attack/defence name,type,accuracy,precision,recall,f1
+HopSkipJump Attack,attack,0.330869,0.521158,0.330869,0.244184
+HopSkipJump Defense,defence,0.979667,0.979887,0.979667,0.979653
+ZooAttack Attack,attack,0.974122,0.974520,0.974122,0.974170
+ZooAttack Defense,defence,0.977819,0.978136,0.977819,0.977800
+Boundary Attack,attack,0.024030,0.014809,0.024030,0.017910
+Membership Inference Attack,attack,0.706830,0.704698,1.000000,0.826772
